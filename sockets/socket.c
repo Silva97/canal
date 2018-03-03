@@ -5,7 +5,7 @@
  * Date: 02/17/2018
  ********************/
 
-#include "inc/socket.h" // SADDR
+#include "socket.h" // SADDR
 #include <stdio.h>
 #include <string.h>
 #include <errno.h>
