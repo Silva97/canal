@@ -59,7 +59,7 @@ int socket_send(int socket, char *buff, int size){
     }
 
     if((r = send(socket, buff, size, 0)) == -1){
-        perror("Error on send data for buffer");
+        perror("Error on send data from buffer");
         return -1;
     }
 
